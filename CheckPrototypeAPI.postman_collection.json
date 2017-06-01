@@ -1,0 +1,55 @@
+{
+	"id": "c81867c5-f553-b646-96ce-e3e90d926fdb",
+	"name": "CheckPrototypeAPI",
+	"description": "",
+	"order": [
+		"770f494e-a1bf-0d82-1a69-23dcc84c4620",
+		"14f8cce4-93dc-cbcb-a46b-a4a0e1103811"
+	],
+	"folders": [],
+	"timestamp": 1496078084738,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "14f8cce4-93dc-cbcb-a46b-a4a0e1103811",
+			"headers": "Content-Type: application/json\n",
+			"url": "localhost:3000/checks",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496078915773,
+			"name": "localhost:3000/checks",
+			"description": "",
+			"collectionId": "c81867c5-f553-b646-96ce-e3e90d926fdb",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Roberto Vargas C2.\", \n\t\"secondNameCompany\": \"\",\n\t\"addressLine1\": \"Turrialba, barrio el Poró\",\n\t\"addressLine2\":\"\",\n\t\"city\":\"Turrialba\",\n\t\"state\": \"cartago\",\n\t\"zipCode\": \"30509\",\n\t\"routingNumber\": \"00000000125\",\n\t\"accountNumber\": \"acn123456\",\n\t\"startingCheckNumber\":\"000\",\n\t\"checkNumberPrefix\": \"\",\n\t\"bankName\": \"BAC SAN JOSE\",\n\t\"status\":[\n\t\t\"pending\"\n\t\t]\n}"
+		},
+		{
+			"id": "770f494e-a1bf-0d82-1a69-23dcc84c4620",
+			"headers": "Content-Type: application/json\n",
+			"url": "localhost:3000/checks",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c81867c5-f553-b646-96ce-e3e90d926fdb",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/checks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496078094459,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
